@@ -18,19 +18,19 @@ COMMAND LINE ARGUMENTS:
 -name
 AssetImportWorker0
 -projectPath
-/Users/kingnan/Documents/github/unity-dots
+/Users/kingnan/Documents/github/unity-dots-rvo
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-60526
+58931
 -job-worker-count
 3
 -background-job-worker-count
 8
 -asset-garbage-collectors
 1
-Successfully changed project path to: /Users/kingnan/Documents/github/unity-dots
-/Users/kingnan/Documents/github/unity-dots
+Successfully changed project path to: /Users/kingnan/Documents/github/unity-dots-rvo
+/Users/kingnan/Documents/github/unity-dots-rvo
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -65,18 +65,18 @@ Successfully changed project path to: /Users/kingnan/Documents/github/unity-dots
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [140704461656320] Host "[IP] 192.168.31.138 [Port] 0 [Flags] 2 [Guid] 2326707138 [EditorId] 2326707138 [Version] 1048832 [Id] OSXEditor(0,kingnandeMBP) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
-Player connection [140704461656320] Host "[IP] 192.168.31.138 [Port] 0 [Flags] 2 [Guid] 2326707138 [EditorId] 2326707138 [Version] 1048832 [Id] OSXEditor(0,kingnandeMBP) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [140704461656320] Host "[IP] 192.168.31.138 [Port] 0 [Flags] 2 [Guid] 2168076974 [EditorId] 2168076974 [Version] 1048832 [Id] OSXEditor(0,kingnandeMBP) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [140704461656320] Host "[IP] 192.168.31.138 [Port] 0 [Flags] 2 [Guid] 2168076974 [EditorId] 2168076974 [Version] 1048832 [Id] OSXEditor(0,kingnandeMBP) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 3
 [Physics::Module] Initialized MultithreadedJobDispatcher with 3 workers.
 Library Redirect Path: Library/
-Refreshing native plugins compatible for Editor in 7.96 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 6.69 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2023.2.20f1c1 (ceda3f59bbc9)
 [Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2023.2.20f1c1/Unity.app/Contents/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path /Users/kingnan/Documents/github/unity-dots/Assets
+[Subsystems] Discovering subsystems at path /Users/kingnan/Documents/github/unity-dots-rvo/Assets
 GfxDevice: creating device client; kGfxThreadingModeNonThreaded
-Color LCD preferred device: Intel(R) Iris(TM) Plus Graphics 655 (low power)
+DELL D2720DS preferred device: Intel(R) Iris(TM) Plus Graphics 655 (low power)
 Metal devices available: 1
 0: Intel(R) Iris(TM) Plus Graphics 655 (low power)
 Using device Intel(R) Iris(TM) Plus Graphics 655 (low power)
@@ -85,45 +85,45 @@ Initialize mono
 Mono path[0] = '/Applications/Unity/Hub/Editor/2023.2.20f1c1/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/Unity/Hub/Editor/2023.2.20f1c1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
 Mono config path = '/Applications/Unity/Hub/Editor/2023.2.20f1c1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56821
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56044
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/Unity/Hub/Editor/2023.2.20f1c1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: /Applications/Unity/Hub/Editor/2023.2.20f1c1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Registered in 0.007579 seconds.
-- Loaded All Assemblies, in  1.083 seconds
+Registered in 0.006315 seconds.
+- Loaded All Assemblies, in  0.810 seconds
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.937 seconds
-Domain Reload Profiling: 2030ms
-	BeginReloadAssembly (340ms)
+- Finished resetting the current domain, in  0.645 seconds
+Domain Reload Profiling: 1455ms
+	BeginReloadAssembly (272ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (104ms)
-	RebuildNativeTypeToScriptingClass (36ms)
-	initialDomainReloadingComplete (124ms)
-	LoadAllAssembliesAndSetupDomain (478ms)
-		LoadAssemblies (342ms)
+	RebuildCommonClasses (70ms)
+	RebuildNativeTypeToScriptingClass (22ms)
+	initialDomainReloadingComplete (84ms)
+	LoadAllAssembliesAndSetupDomain (361ms)
+		LoadAssemblies (272ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (469ms)
-			TypeCache.Refresh (464ms)
-				TypeCache.ScanAssembly (429ms)
+		AnalyzeDomain (354ms)
+			TypeCache.Refresh (351ms)
+				TypeCache.ScanAssembly (316ms)
 			BuildScriptInfoCaches (0ms)
-			ResolveRequiredComponents (2ms)
-	FinalizeReload (948ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (645ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (755ms)
+		SetupLoadedEditorAssemblies (513ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (72ms)
-			SetLoadedEditorAssemblies (11ms)
+			InitializePlatformSupportModulesInManaged (62ms)
+			SetLoadedEditorAssemblies (10ms)
 			BeforeProcessingInitializeOnLoad (10ms)
-			ProcessInitializeOnLoadAttributes (507ms)
-			ProcessInitializeOnLoadMethodAttributes (154ms)
+			ProcessInitializeOnLoadAttributes (341ms)
+			ProcessInitializeOnLoadMethodAttributes (90ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -135,345 +135,102 @@ Import Worker Mode flag is 0x00
 Assembly reference Packages/com.unity.entities/Unity.Scenes.Editor/Internals/Properties/Unity.Properties.Internals.asmref has no target assembly definition
 Assembly reference Packages/com.unity.entities/Unity.Scenes.Editor/Internals/Properties/Unity.Properties.Internals.asmref has no target assembly definition
 Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image /Users/kingnan/Documents/github/unity-dots/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image /Users/kingnan/Documents/github/unity-dots/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  2.638 seconds
-Assembly reference Packages/com.unity.entities/Unity.Scenes.Editor/Internals/Properties/Unity.Properties.Internals.asmref has no target assembly definition
-Refreshing native plugins compatible for Editor in 1.36 ms, found 3 plugins.
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Assembly reference Packages/com.unity.entities/Unity.Scenes.Editor/Internals/Properties/Unity.Properties.Internals.asmref has no target assembly definition
-TypeManager.Initialize took: 743ms
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  2.900 seconds
-Domain Reload Profiling: 5538ms
-	BeginReloadAssembly (1193ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (13ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (68ms)
-	RebuildCommonClasses (96ms)
-	RebuildNativeTypeToScriptingClass (30ms)
-	initialDomainReloadingComplete (81ms)
-	LoadAllAssembliesAndSetupDomain (1238ms)
-		LoadAssemblies (811ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (573ms)
-			TypeCache.Refresh (458ms)
-				TypeCache.ScanAssembly (430ms)
-			BuildScriptInfoCaches (81ms)
-			ResolveRequiredComponents (26ms)
-	FinalizeReload (2901ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (2426ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (5ms)
-			SetLoadedEditorAssemblies (9ms)
-			BeforeProcessingInitializeOnLoad (130ms)
-			ProcessInitializeOnLoadAttributes (1997ms)
-			ProcessInitializeOnLoadMethodAttributes (282ms)
-			AfterProcessingInitializeOnLoad (2ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (16ms)
-Launching external process: /Applications/Unity/Hub/Editor/2023.2.20f1c1/Unity.app/Contents/Tools/UnityShaderCompiler
-Launched and connected shader compiler UnityShaderCompiler after 0.13 seconds
-Refreshing native plugins compatible for Editor in 0.81 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 179 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 7306 unused Assets / (5.7 MB). Loaded Objects now: 7968.
-Memory consumption went from 180.3 MB to 174.5 MB.
-Total: 18.240828 ms (FindLiveObjects: 0.991193 ms CreateObjectMapping: 1.459507 ms MarkObjects: 11.013893 ms  DeleteObjects: 4.774803 ms)
-
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 0.86 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 26 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 26 unused Assets / (2.8 MB). Loaded Objects now: 7968.
-Memory consumption went from 146.9 MB to 144.1 MB.
-Total: 17.601727 ms (FindLiveObjects: 0.686800 ms CreateObjectMapping: 0.666908 ms MarkObjects: 15.112538 ms  DeleteObjects: 1.134281 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 0.67 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 26 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 7273 unused Assets / (6.1 MB). Loaded Objects now: 7945.
-Memory consumption went from 150.9 MB to 144.8 MB.
-Total: 14.826156 ms (FindLiveObjects: 0.921504 ms CreateObjectMapping: 1.277339 ms MarkObjects: 9.257820 ms  DeleteObjects: 3.368231 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Import Request.
-  Time since last request: 5296.289361 seconds.
-  path: Assets/SceneDependencyCache/e90b1d98f579e9d664cd5933a615aff9.sceneWithBuildSettings
-  artifactKey: Guid(e90b1d98f579e9d664cd5933a615aff9) Importer(2089858483,52bed625d08a7023a15481c3fbd73797)
-Start importing Assets/SceneDependencyCache/e90b1d98f579e9d664cd5933a615aff9.sceneWithBuildSettings using Guid(e90b1d98f579e9d664cd5933a615aff9) Importer(2089858483,52bed625d08a7023a15481c3fbd73797) (ScriptedImporter)Opening scene 'Assets/Scenes/SampleScene/New Sub Scene.unity additively'
-Loaded scene 'Assets/Scenes/SampleScene/New Sub Scene.unity'
-	Deserialize:            1.017 ms
-	Integration:            3.552 ms
-	Integration of assets:  0.008 ms
-	Thread Wait Time:       0.013 ms
-	Total Operation Time:   4.590 ms
-The referenced script is missing on Cube (index 4 in components list)
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
-UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object)
-UnityEngine.Debug:LogWarning (object,UnityEngine.Object)
-Unity.Debug:LogWarning (object,UnityEngine.Object) (at ./Library/PackageCache/com.unity.entities@1.2.4/Unity.Entities/Stubs/Unity/Debug.cs:22)
-Unity.Entities.Conversion.UnityEngineExtensions:GetComponentsBaking (UnityEngine.GameObject,System.Collections.Generic.List`1<UnityEngine.Component>) (at ./Library/PackageCache/com.unity.entities@1.2.4/Unity.Entities.Hybrid/GameObjectConversion/UnityEngineExtensions.cs:70)
-Unity.Entities.Baking.IncrementalBakingContext:BuildInitialInstructions (UnityEngine.SceneManagement.Scene,UnityEngine.GameObject[],Unity.Entities.TransformAuthoringBaking&) (at ./Library/PackageCache/com.unity.entities@1.2.4/Unity.Entities.Hybrid/Baking/IncrementalBakingContext.cs:272)
-Unity.Entities.BakingSystem:Bake (Unity.Entities.IncrementalBakingChangeTracker,UnityEngine.GameObject[]) (at ./Library/PackageCache/com.unity.entities@1.2.4/Unity.Entities.Hybrid/Baking/BakingSystem.cs:136)
-Unity.Entities.BakingUtility:BakeScene (Unity.Entities.World,UnityEngine.SceneManagement.Scene,Unity.Entities.BakingSettings,bool,Unity.Entities.IncrementalBakingChangeTracker) (at ./Library/PackageCache/com.unity.entities@1.2.4/Unity.Entities.Hybrid/Baking/BakingUtility.cs:84)
-Unity.Scenes.Editor.EditorEntityScenes:BakeAndWriteEntityScene (UnityEngine.SceneManagement.Scene,Unity.Entities.BakingSettings,System.Collections.Generic.List`1<Unity.Scenes.ReferencedUnityObjects>,Unity.Scenes.Editor.WriteEntitySceneSettings) (at ./Library/PackageCache/com.unity.entities@1.2.4/Unity.Scenes.Editor/EditorEntityScenes.cs:70)
-Unity.Scenes.Editor.SubSceneImporter:ImportBaking (UnityEditor.AssetImporters.AssetImportContext,UnityEngine.SceneManagement.Scene,Unity.Scenes.SceneWithBuildConfigurationGUIDs,Unity.Entities.Build.IEntitiesPlayerSettings,UnityEngine.GameObject) (at ./Library/PackageCache/com.unity.entities@1.2.4/Unity.Scenes.Editor/SubSceneImporter.cs:123)
-Unity.Scenes.Editor.SubSceneImporter:OnImportAsset (UnityEditor.AssetImporters.AssetImportContext) (at ./Library/PackageCache/com.unity.entities@1.2.4/Unity.Scenes.Editor/SubSceneImporter.cs:202)
-UnityEditor.AssetImporters.ScriptedImporter:GenerateAssetData (UnityEditor.AssetImporters.AssetImportContext) (at /Users/bokken/build/output/unity/unity/Modules/AssetPipelineEditor/Public/ScriptedImporter.cs:25)
-
-(Filename: ./Library/PackageCache/com.unity.entities@1.2.4/Unity.Entities/Stubs/Unity/Debug.cs Line: 22)
-
- -> (artifact id: 'd60d66fd879f073aeca6b7c4feab1869') in 2.063558722 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Prepare
-Assembly reference Packages/com.unity.entities/Unity.Scenes.Editor/Internals/Properties/Unity.Properties.Internals.asmref has no target assembly definition
-Assembly reference Packages/com.unity.entities/Unity.Scenes.Editor/Internals/Properties/Unity.Properties.Internals.asmref has no target assembly definition
-Begin MonoManager ReloadAssembly
-Leak Detected : Persistent allocates 1 individual allocations. To find out more please enable 'Preferences > Jobs > Leak Detection Level > Enabled With Stack Trace' and reproduce the leak again.
-Symbol file LoadedFromMemory doesn't match image /Users/kingnan/Documents/github/unity-dots/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image /Users/kingnan/Documents/github/unity-dots/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  1.073 seconds
-Assembly reference Packages/com.unity.entities/Unity.Scenes.Editor/Internals/Properties/Unity.Properties.Internals.asmref has no target assembly definition
-Refreshing native plugins compatible for Editor in 0.64 ms, found 3 plugins.
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Assembly reference Packages/com.unity.entities/Unity.Scenes.Editor/Internals/Properties/Unity.Properties.Internals.asmref has no target assembly definition
-TypeManager.Initialize took: 696ms
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  2.533 seconds
-Domain Reload Profiling: 3611ms
-	BeginReloadAssembly (280ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (7ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (129ms)
-	RebuildCommonClasses (60ms)
-	RebuildNativeTypeToScriptingClass (22ms)
-	initialDomainReloadingComplete (38ms)
-	LoadAllAssembliesAndSetupDomain (676ms)
-		LoadAssemblies (458ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (310ms)
-			TypeCache.Refresh (10ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (278ms)
-			ResolveRequiredComponents (16ms)
-	FinalizeReload (2534ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (2147ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (5ms)
-			SetLoadedEditorAssemblies (7ms)
-			BeforeProcessingInitializeOnLoad (105ms)
-			ProcessInitializeOnLoadAttributes (1693ms)
-			ProcessInitializeOnLoadMethodAttributes (335ms)
-			AfterProcessingInitializeOnLoad (1ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (29ms)
-Refreshing native plugins compatible for Editor in 1.07 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 27 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 7284 unused Assets / (6.2 MB). Loaded Objects now: 7950.
-Memory consumption went from 181.7 MB to 175.5 MB.
-Total: 20.633851 ms (FindLiveObjects: 1.363064 ms CreateObjectMapping: 1.600425 ms MarkObjects: 13.844177 ms  DeleteObjects: 3.824878 ms)
-
-Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 0 unused Assets / (3.3 MB). Loaded Objects now: 7950.
-Memory consumption went from 175.5 MB to 172.1 MB.
-Total: 13.334714 ms (FindLiveObjects: 0.650499 ms CreateObjectMapping: 0.652725 ms MarkObjects: 11.323310 ms  DeleteObjects: 0.706639 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Import Request.
-  Time since last request: 13.871394 seconds.
-  path: Assets/SceneDependencyCache/58aa5d40384d7cd02ba30d827d475a1f.sceneWithBuildSettings
-  artifactKey: Guid(58aa5d40384d7cd02ba30d827d475a1f) Importer(2089858483,52bed625d08a7023a15481c3fbd73797)
-Start importing Assets/SceneDependencyCache/58aa5d40384d7cd02ba30d827d475a1f.sceneWithBuildSettings using Guid(58aa5d40384d7cd02ba30d827d475a1f) Importer(2089858483,52bed625d08a7023a15481c3fbd73797) (ScriptedImporter)Opening scene 'Assets/Scenes/SampleScene/secondScene.unity additively'
-Loaded scene 'Assets/Scenes/SampleScene/secondScene.unity'
-	Deserialize:            0.793 ms
-	Integration:            1.269 ms
-	Integration of assets:  0.003 ms
-	Thread Wait Time:       0.025 ms
-	Total Operation Time:   2.089 ms
- -> (artifact id: '884f88c194bcafc90f55e348bacd58fb') in 1.55480091 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 4.01 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 27 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 7359 unused Assets / (6.8 MB). Loaded Objects now: 8035.
-Memory consumption went from 189.3 MB to 182.5 MB.
-Total: 33.323341 ms (FindLiveObjects: 1.282550 ms CreateObjectMapping: 2.063477 ms MarkObjects: 24.331875 ms  DeleteObjects: 5.643731 ms)
-
-Prepare: number of updated asset objects reloaded= 1
-========================================================================
-Received Import Request.
-  Time since last request: 173.814198 seconds.
-  path: Assets/Scenes/RVOSamples/SetupRing
-  artifactKey: Guid(b6dc8e49912143442b0f73f63d98f12e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/RVOSamples/SetupRing using Guid(b6dc8e49912143442b0f73f63d98f12e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '78b23696b8c4d1ccde488fa899c6dbed') in 0.00085134 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Prepare
-Assembly reference Packages/com.unity.entities/Unity.Scenes.Editor/Internals/Properties/Unity.Properties.Internals.asmref has no target assembly definition
-Assembly reference Packages/com.unity.entities/Unity.Scenes.Editor/Internals/Properties/Unity.Properties.Internals.asmref has no target assembly definition
-Begin MonoManager ReloadAssembly
-Leak Detected : Persistent allocates 1 individual allocations. To find out more please enable 'Preferences > Jobs > Leak Detection Level > Enabled With Stack Trace' and reproduce the leak again.
-Symbol file LoadedFromMemory doesn't match image /Users/kingnan/Documents/github/unity-dots/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image /Users/kingnan/Documents/github/unity-dots/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  1.286 seconds
+Symbol file LoadedFromMemory doesn't match image /Users/kingnan/Documents/github/unity-dots-rvo/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/kingnan/Documents/github/unity-dots-rvo/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  2.129 seconds
 Assembly reference Packages/com.unity.entities/Unity.Scenes.Editor/Internals/Properties/Unity.Properties.Internals.asmref has no target assembly definition
-Refreshing native plugins compatible for Editor in 0.68 ms, found 3 plugins.
-Assertion failed on expression: 'pred(*previous, *i)'
-Assertion failed on expression: 'pred(*previous, *i)'
-Assertion failed on expression: 'pred(*previous, *i)'
-Assertion failed on expression: 'pred(*previous, *i)'
-Assertion failed on expression: 'pred(*previous, *i)'
-Assertion failed on expression: 'pred(*previous, *i)'
-Assertion failed on expression: 'pred(*previous, *i)'
-Assertion failed on expression: 'pred(*previous, *i)'
-Assertion failed on expression: 'pred(*previous, *i)'
-Assertion failed on expression: 'pred(*previous, *i)'
-Assertion failed on expression: 'pred(*previous, *i)'
-Assertion failed on expression: 'pred(*previous, *i)'
-Assertion failed on expression: 'pred(*previous, *i)'
-Assertion failed on expression: 'pred(*previous, *i)'
-Assertion failed on expression: 'pred(*previous, *i)'
-Assertion failed on expression: 'pred(*previous, *i)'
-Assertion failed on expression: 'pred(*previous, *i)'
-Assertion failed on expression: 'pred(*previous, *i)'
-Assertion failed on expression: 'pred(*previous, *i)'
-Assertion failed on expression: 'pred(*previous, *i)'
-Assertion failed on expression: 'pred(*previous, *i)'
-Assertion failed on expression: 'pred(*previous, *i)'
-Assertion failed on expression: 'pred(*previous, *i)'
-Assertion failed on expression: 'pred(*previous, *i)'
-Assertion failed on expression: 'pred(*previous, *i)'
-Assertion failed on expression: 'pred(*previous, *i)'
-Assertion failed on expression: 'pred(*previous, *i)'
-Assertion failed on expression: 'pred(*previous, *i)'
-Assertion failed on expression: 'pred(*previous, *i)'
-Assertion failed on expression: 'pred(*previous, *i)'
-Assertion failed on expression: 'pred(*previous, *i)'
-Assertion failed on expression: 'pred(*previous, *i)'
-Assertion failed on expression: 'pred(*previous, *i)'
-Assertion failed on expression: 'pred(*previous, *i)'
-Assertion failed on expression: 'pred(*previous, *i)'
-Assertion failed on expression: 'pred(*previous, *i)'
-Assertion failed on expression: 'pred(*previous, *i)'
-Assertion failed on expression: 'pred(*previous, *i)'
-Assertion failed on expression: 'pred(*previous, *i)'
-Assertion failed on expression: 'pred(*previous, *i)'
-Assertion failed on expression: 'pred(*previous, *i)'
-Assertion failed on expression: 'pred(*previous, *i)'
-Assertion failed on expression: 'pred(*previous, *i)'
-Assertion failed on expression: 'pred(*previous, *i)'
-Assertion failed on expression: 'pred(*previous, *i)'
-Assertion failed on expression: 'pred(*previous, *i)'
-Assertion failed on expression: 'pred(*previous, *i)'
-Assertion failed on expression: 'pred(*previous, *i)'
-Assertion failed on expression: 'pred(*previous, *i)'
-Assertion failed on expression: 'pred(*previous, *i)'
-Assertion failed on expression: 'pred(*previous, *i)'
-Assertion failed on expression: 'pred(*previous, *i)'
-Assertion failed on expression: 'pred(*previous, *i)'
-Assertion failed on expression: 'pred(*previous, *i)'
-Assertion failed on expression: 'pred(*previous, *i)'
-Assertion failed on expression: 'pred(*previous, *i)'
-Assertion failed on expression: 'pred(*previous, *i)'
-Assertion failed on expression: 'pred(*previous, *i)'
-Assertion failed on expression: 'pred(*previous, *i)'
-Assertion failed on expression: 'pred(*previous, *i)'
-Assertion failed on expression: 'pred(*previous, *i)'
-Assertion failed on expression: 'pred(*previous, *i)'
-Assertion failed on expression: 'pred(*previous, *i)'
-Assertion failed on expression: 'pred(*previous, *i)'
-Assertion failed on expression: 'pred(*previous, *i)'
-Assertion failed on expression: 'pred(*previous, *i)'
-Assertion failed on expression: 'pred(*previous, *i)'
-Assertion failed on expression: 'pred(*previous, *i)'
-Assertion failed on expression: 'pred(*previous, *i)'
-Assertion failed on expression: 'pred(*previous, *i)'
-Assertion failed on expression: 'pred(*previous, *i)'
-Assertion failed on expression: 'pred(*previous, *i)'
-Assertion failed on expression: 'pred(*previous, *i)'
-Assertion failed on expression: 'pred(*previous, *i)'
-Assertion failed on expression: 'pred(*previous, *i)'
-Assertion failed on expression: 'pred(*previous, *i)'
-Assertion failed on expression: 'pred(*previous, *i)'
-Assertion failed on expression: 'pred(*previous, *i)'
+Refreshing native plugins compatible for Editor in 0.82 ms, found 3 plugins.
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
 Assembly reference Packages/com.unity.entities/Unity.Scenes.Editor/Internals/Properties/Unity.Properties.Internals.asmref has no target assembly definition
-TypeManager.Initialize took: 680ms
+TypeManager.Initialize took: 619ms
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  2.363 seconds
-Domain Reload Profiling: 3654ms
-	BeginReloadAssembly (275ms)
+- Finished resetting the current domain, in  2.283 seconds
+Domain Reload Profiling: 4412ms
+	BeginReloadAssembly (862ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (7ms)
+		DisableScriptedObjects (12ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (118ms)
-	RebuildCommonClasses (55ms)
-	RebuildNativeTypeToScriptingClass (24ms)
-	initialDomainReloadingComplete (37ms)
-	LoadAllAssembliesAndSetupDomain (900ms)
-		LoadAssemblies (536ms)
+		CreateAndSetChildDomain (50ms)
+	RebuildCommonClasses (61ms)
+	RebuildNativeTypeToScriptingClass (21ms)
+	initialDomainReloadingComplete (62ms)
+	LoadAllAssembliesAndSetupDomain (1123ms)
+		LoadAssemblies (729ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (460ms)
-			TypeCache.Refresh (279ms)
-				TypeCache.ScanAssembly (258ms)
-			BuildScriptInfoCaches (155ms)
-			ResolveRequiredComponents (17ms)
-	FinalizeReload (2363ms)
+		AnalyzeDomain (499ms)
+			TypeCache.Refresh (410ms)
+				TypeCache.ScanAssembly (381ms)
+			BuildScriptInfoCaches (65ms)
+			ResolveRequiredComponents (19ms)
+	FinalizeReload (2284ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (2014ms)
+		SetupLoadedEditorAssemblies (1875ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (5ms)
 			SetLoadedEditorAssemblies (8ms)
-			BeforeProcessingInitializeOnLoad (99ms)
-			ProcessInitializeOnLoadAttributes (1649ms)
-			ProcessInitializeOnLoadMethodAttributes (251ms)
+			BeforeProcessingInitializeOnLoad (101ms)
+			ProcessInitializeOnLoadAttributes (1539ms)
+			ProcessInitializeOnLoadMethodAttributes (221ms)
 			AfterProcessingInitializeOnLoad (1ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (24ms)
-Refreshing native plugins compatible for Editor in 0.88 ms, found 3 plugins.
+		AwakeInstancesAfterBackupRestoration (13ms)
+Launching external process: /Applications/Unity/Hub/Editor/2023.2.20f1c1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.10 seconds
+Refreshing native plugins compatible for Editor in 0.78 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 27 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 7447 unused Assets / (6.2 MB). Loaded Objects now: 8113.
-Memory consumption went from 186.4 MB to 180.2 MB.
-Total: 16.060395 ms (FindLiveObjects: 1.001884 ms CreateObjectMapping: 1.367628 ms MarkObjects: 9.969238 ms  DeleteObjects: 3.720235 ms)
+Unloading 180 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7446 unused Assets / (5.8 MB). Loaded Objects now: 8108.
+Memory consumption went from 181.2 MB to 175.4 MB.
+Total: 17.163488 ms (FindLiveObjects: 1.511774 ms CreateObjectMapping: 1.368158 ms MarkObjects: 10.089164 ms  DeleteObjects: 4.192676 ms)
 
-Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 0 unused Assets / (3.4 MB). Loaded Objects now: 8113.
-Memory consumption went from 180.2 MB to 176.7 MB.
-Total: 11.660120 ms (FindLiveObjects: 0.541991 ms CreateObjectMapping: 0.435457 ms MarkObjects: 9.947017 ms  DeleteObjects: 0.734077 ms)
+========================================================================
+Received Import Request.
+  Time since last request: 26877.828157 seconds.
+  path: Assets/SceneDependencyCache/3ee54b5137049d1b5bcf4b07db7e9ded.sceneWithBuildSettings
+  artifactKey: Guid(3ee54b5137049d1b5bcf4b07db7e9ded) Importer(2089858483,52bed625d08a7023a15481c3fbd73797)
+Start importing Assets/SceneDependencyCache/3ee54b5137049d1b5bcf4b07db7e9ded.sceneWithBuildSettings using Guid(3ee54b5137049d1b5bcf4b07db7e9ded) Importer(2089858483,52bed625d08a7023a15481c3fbd73797) (ScriptedImporter)Opening scene 'Assets/Scenes/Dots避障/DotsRVO2/SubScene.unity additively'
+Loaded scene 'Assets/Scenes/Dots避障/DotsRVO2/SubScene.unity'
+	Deserialize:            1.473 ms
+	Integration:            1.648 ms
+	Integration of assets:  1.143 ms
+	Thread Wait Time:       0.020 ms
+	Total Operation Time:   4.284 ms
+ -> (artifact id: 'd42dd3ade38adacdfd4d82028d0667ea') in 1.250977622 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
 
-Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 16.607832 seconds.
+  path: Assets/SceneDependencyCache/cc53721a147f9fe1f9fa56d75d0a2ad3.sceneWithBuildSettings
+  artifactKey: Guid(cc53721a147f9fe1f9fa56d75d0a2ad3) Importer(2089858483,52bed625d08a7023a15481c3fbd73797)
+Start importing Assets/SceneDependencyCache/cc53721a147f9fe1f9fa56d75d0a2ad3.sceneWithBuildSettings using Guid(cc53721a147f9fe1f9fa56d75d0a2ad3) Importer(2089858483,52bed625d08a7023a15481c3fbd73797) (ScriptedImporter)Opening scene 'Assets/Scenes/dotsScene/mainScene/SubScene.unity additively'
+Loaded scene 'Assets/Scenes/dotsScene/mainScene/SubScene.unity'
+	Deserialize:            0.856 ms
+	Integration:            0.381 ms
+	Integration of assets:  0.025 ms
+	Thread Wait Time:       0.015 ms
+	Total Operation Time:   1.276 ms
+ -> (artifact id: '61f96b4de9f36d9a8b2db30a89315b45') in 0.025687676 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 59.180593 seconds.
+  path: Assets/Scripts
+  artifactKey: Guid(e07e7dfc4c18ae3459efb5fcd10d3a57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts using Guid(e07e7dfc4c18ae3459efb5fcd10d3a57) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9a2a73e664621148c0735cbe2b488560') in 0.000872057 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.701045 seconds.
+  path: Assets/Scenes/RVOSamples/Demos
+  artifactKey: Guid(aaa8f9e4f01fa2c43b4ff8ccc8726699) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/RVOSamples/Demos using Guid(aaa8f9e4f01fa2c43b4ff8ccc8726699) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0ce587ec8bf331d23b37bea9d5d7f257') in 0.000640402 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+

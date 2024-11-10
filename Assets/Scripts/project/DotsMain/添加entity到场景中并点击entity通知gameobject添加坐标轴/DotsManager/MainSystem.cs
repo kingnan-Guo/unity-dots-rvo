@@ -62,7 +62,7 @@ public partial struct MainSystem : ISystem, ISystemStartStop
 
         // number = jsonData.data.Count();
 
-        number = 20000;
+        number = 200;
 
         Debug.Log("MainSystem OnUpdate");
         // TryGetSingleton

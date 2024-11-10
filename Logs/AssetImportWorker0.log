@@ -9,6 +9,7 @@ Running under Rosetta:   NO
 Available memory:        16384 MB
 Using pre-set license
 Pro License: YES
+2024-11-10 22:25:15.362 Unity[3430:47197] WARNING: Secure coding is not enabled for restorable state! Enable secure coding by implementing NSApplicationDelegate.applicationSupportsSecureRestorableState: and returning YES.
 
 COMMAND LINE ARGUMENTS:
 /Applications/Unity/Hub/Editor/2023.2.20f1c1/Unity.app/Contents/MacOS/Unity
@@ -18,19 +19,19 @@ COMMAND LINE ARGUMENTS:
 -name
 AssetImportWorker0
 -projectPath
-/Users/kingnan/Documents/github/unity-dots
+/Users/kingnan/Documents/github/unity-dots-rvo
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-61048
+53448
 -job-worker-count
 3
 -background-job-worker-count
 8
 -asset-garbage-collectors
 1
-Successfully changed project path to: /Users/kingnan/Documents/github/unity-dots
-/Users/kingnan/Documents/github/unity-dots
+Successfully changed project path to: /Users/kingnan/Documents/github/unity-dots-rvo
+/Users/kingnan/Documents/github/unity-dots-rvo
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -65,18 +66,18 @@ Successfully changed project path to: /Users/kingnan/Documents/github/unity-dots
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [140704461656320] Host "[IP] 192.168.31.138 [Port] 0 [Flags] 2 [Guid] 2948491907 [EditorId] 2948491907 [Version] 1048832 [Id] OSXEditor(0,kingnandeMBP) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
-Player connection [140704461656320] Host "[IP] 192.168.31.138 [Port] 0 [Flags] 2 [Guid] 2948491907 [EditorId] 2948491907 [Version] 1048832 [Id] OSXEditor(0,kingnandeMBP) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [140704674345216] Host "[IP] 192.168.31.138 [Port] 0 [Flags] 2 [Guid] 4181702217 [EditorId] 4181702217 [Version] 1048832 [Id] OSXEditor(0,kingnandeMBP) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [140704674345216] Host "[IP] 192.168.31.138 [Port] 0 [Flags] 2 [Guid] 4181702217 [EditorId] 4181702217 [Version] 1048832 [Id] OSXEditor(0,kingnandeMBP) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 3
 [Physics::Module] Initialized MultithreadedJobDispatcher with 3 workers.
 Library Redirect Path: Library/
-Refreshing native plugins compatible for Editor in 2.21 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.50 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2023.2.20f1c1 (ceda3f59bbc9)
 [Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2023.2.20f1c1/Unity.app/Contents/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path /Users/kingnan/Documents/github/unity-dots/Assets
+[Subsystems] Discovering subsystems at path /Users/kingnan/Documents/github/unity-dots-rvo/Assets
 GfxDevice: creating device client; kGfxThreadingModeNonThreaded
-Color LCD preferred device: Intel(R) Iris(TM) Plus Graphics 655 (low power)
+DELL D2720DS preferred device: Intel(R) Iris(TM) Plus Graphics 655 (low power)
 Metal devices available: 1
 0: Intel(R) Iris(TM) Plus Graphics 655 (low power)
 Using device Intel(R) Iris(TM) Plus Graphics 655 (low power)
@@ -85,45 +86,45 @@ Initialize mono
 Mono path[0] = '/Applications/Unity/Hub/Editor/2023.2.20f1c1/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/Unity/Hub/Editor/2023.2.20f1c1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
 Mono config path = '/Applications/Unity/Hub/Editor/2023.2.20f1c1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56214
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56430
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/Unity/Hub/Editor/2023.2.20f1c1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: /Applications/Unity/Hub/Editor/2023.2.20f1c1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Registered in 0.003412 seconds.
-- Loaded All Assemblies, in  0.929 seconds
+Registered in 0.001864 seconds.
+- Loaded All Assemblies, in  0.666 seconds
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.955 seconds
-Domain Reload Profiling: 1884ms
-	BeginReloadAssembly (212ms)
+- Finished resetting the current domain, in  0.671 seconds
+Domain Reload Profiling: 1337ms
+	BeginReloadAssembly (165ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (2ms)
-	RebuildCommonClasses (93ms)
-	RebuildNativeTypeToScriptingClass (39ms)
-	initialDomainReloadingComplete (114ms)
-	LoadAllAssembliesAndSetupDomain (470ms)
-		LoadAssemblies (213ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (100ms)
+	RebuildNativeTypeToScriptingClass (31ms)
+	initialDomainReloadingComplete (80ms)
+	LoadAllAssembliesAndSetupDomain (288ms)
+		LoadAssemblies (165ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (463ms)
-			TypeCache.Refresh (459ms)
-				TypeCache.ScanAssembly (428ms)
+		AnalyzeDomain (284ms)
+			TypeCache.Refresh (282ms)
+				TypeCache.ScanAssembly (256ms)
 			BuildScriptInfoCaches (0ms)
 			ResolveRequiredComponents (1ms)
-	FinalizeReload (956ms)
+	FinalizeReload (672ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (794ms)
+		SetupLoadedEditorAssemblies (542ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (75ms)
-			SetLoadedEditorAssemblies (11ms)
-			BeforeProcessingInitializeOnLoad (16ms)
-			ProcessInitializeOnLoadAttributes (585ms)
-			ProcessInitializeOnLoadMethodAttributes (107ms)
+			InitializePlatformSupportModulesInManaged (55ms)
+			SetLoadedEditorAssemblies (8ms)
+			BeforeProcessingInitializeOnLoad (9ms)
+			ProcessInitializeOnLoadAttributes (371ms)
+			ProcessInitializeOnLoadMethodAttributes (98ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -136,153 +137,157 @@ Assembly reference Packages/com.unity.entities/Unity.Scenes.Editor/Internals/Pro
 Assembly reference Packages/com.unity.entities/Unity.Scenes.Editor/Internals/Properties/Unity.Properties.Internals.asmref has no target assembly definition
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file LoadedFromMemory doesn't match image /Users/kingnan/Documents/github/unity-dots/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image /Users/kingnan/Documents/github/unity-dots/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  2.697 seconds
+Symbol file LoadedFromMemory doesn't match image /Users/kingnan/Documents/github/unity-dots-rvo/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/kingnan/Documents/github/unity-dots-rvo/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  2.023 seconds
 Assembly reference Packages/com.unity.entities/Unity.Scenes.Editor/Internals/Properties/Unity.Properties.Internals.asmref has no target assembly definition
-Refreshing native plugins compatible for Editor in 2.02 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.04 ms, found 3 plugins.
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
 Assembly reference Packages/com.unity.entities/Unity.Scenes.Editor/Internals/Properties/Unity.Properties.Internals.asmref has no target assembly definition
-TypeManager.Initialize took: 1544ms
+TypeManager.Initialize took: 771ms
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  5.529 seconds
-Domain Reload Profiling: 8228ms
-	BeginReloadAssembly (840ms)
+- Finished resetting the current domain, in  2.867 seconds
+Domain Reload Profiling: 4889ms
+	BeginReloadAssembly (630ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (13ms)
+		DisableScriptedObjects (10ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (58ms)
+		CreateAndSetChildDomain (57ms)
 	RebuildCommonClasses (77ms)
-	RebuildNativeTypeToScriptingClass (41ms)
-	initialDomainReloadingComplete (102ms)
-	LoadAllAssembliesAndSetupDomain (1636ms)
-		LoadAssemblies (927ms)
+	RebuildNativeTypeToScriptingClass (27ms)
+	initialDomainReloadingComplete (83ms)
+	LoadAllAssembliesAndSetupDomain (1204ms)
+		LoadAssemblies (713ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (860ms)
-			TypeCache.Refresh (687ms)
-				TypeCache.ScanAssembly (648ms)
-			BuildScriptInfoCaches (123ms)
-			ResolveRequiredComponents (41ms)
-	FinalizeReload (5533ms)
+		AnalyzeDomain (619ms)
+			TypeCache.Refresh (503ms)
+				TypeCache.ScanAssembly (470ms)
+			BuildScriptInfoCaches (83ms)
+			ResolveRequiredComponents (26ms)
+	FinalizeReload (2867ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (4668ms)
+		SetupLoadedEditorAssemblies (2383ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (11ms)
-			SetLoadedEditorAssemblies (16ms)
-			BeforeProcessingInitializeOnLoad (268ms)
-			ProcessInitializeOnLoadAttributes (3724ms)
-			ProcessInitializeOnLoadMethodAttributes (634ms)
-			AfterProcessingInitializeOnLoad (16ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (11ms)
+			BeforeProcessingInitializeOnLoad (122ms)
+			ProcessInitializeOnLoadAttributes (1933ms)
+			ProcessInitializeOnLoadMethodAttributes (308ms)
+			AfterProcessingInitializeOnLoad (2ms)
 			EditorAssembliesLoaded (1ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (27ms)
+		AwakeInstancesAfterBackupRestoration (15ms)
 Launching external process: /Applications/Unity/Hub/Editor/2023.2.20f1c1/Unity.app/Contents/Tools/UnityShaderCompiler
-Launched and connected shader compiler UnityShaderCompiler after 0.20 seconds
-Refreshing native plugins compatible for Editor in 1.84 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler after 0.12 seconds
+Refreshing native plugins compatible for Editor in 1.38 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 180 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 7446 unused Assets / (6.8 MB). Loaded Objects now: 8107.
-Memory consumption went from 181.2 MB to 174.5 MB.
-Total: 31.279970 ms (FindLiveObjects: 1.555360 ms CreateObjectMapping: 1.835071 ms MarkObjects: 20.992798 ms  DeleteObjects: 6.894853 ms)
+Unloading 7446 unused Assets / (5.9 MB). Loaded Objects now: 8108.
+Memory consumption went from 181.3 MB to 175.4 MB.
+Total: 25.728319 ms (FindLiveObjects: 1.732038 ms CreateObjectMapping: 2.080752 ms MarkObjects: 15.252418 ms  DeleteObjects: 6.661104 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 2251.553913 seconds.
+  path: Assets/Scenes/Gameobject避障/GameObjectRVO2.unity
+  artifactKey: Guid(f2100fa3c92280f449ec42272f8b346c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Gameobject避障/GameObjectRVO2.unity using Guid(f2100fa3c92280f449ec42272f8b346c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2cee8b7ab0e383d86779b2e3f76de0fd') in 0.006915918 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 58.116872 seconds.
+  path: Assets/Scripts/project/DotsMain/DotsCommon
+  artifactKey: Guid(a2259a74e39345e42a8f79d5f28036a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/project/DotsMain/DotsCommon using Guid(a2259a74e39345e42a8f79d5f28036a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '07d94fa9079d46ae8fa8052d9e69158d') in 0.000789798 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.365553 seconds.
+  path: Assets/Scripts/project/DotsMain/添加entity到场景中并点击entity通知gameobject添加坐标轴/DotsManager/changeLocalTransformSystemBase.cs
+  artifactKey: Guid(89ed76e5c12ed974ba1ff5a0f488df8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/project/DotsMain/添加entity到场景中并点击entity通知gameobject添加坐标轴/DotsManager/changeLocalTransformSystemBase.cs using Guid(89ed76e5c12ed974ba1ff5a0f488df8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9cb40e109fb24a614fe9890aed4b2f64') in 0.000662469 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.870753 seconds.
+  path: Assets/Scripts/project/DotsMain/添加entity到场景中并点击entity通知gameobject添加坐标轴/GameObjectManager
+  artifactKey: Guid(b89e46f72ed949c4caec2e27f79c50a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/project/DotsMain/添加entity到场景中并点击entity通知gameobject添加坐标轴/GameObjectManager using Guid(b89e46f72ed949c4caec2e27f79c50a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '771ab3444b5eea505417a580162c6dbd') in 0.00096579 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.527179 seconds.
+  path: Assets/Scripts/project/DotsMain/添加entity到场景中并点击entity通知gameobject添加坐标轴/GameObjectManager/mainEventHandler.cs
+  artifactKey: Guid(d63159792a0682642aaa5a116720d110) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/project/DotsMain/添加entity到场景中并点击entity通知gameobject添加坐标轴/GameObjectManager/mainEventHandler.cs using Guid(d63159792a0682642aaa5a116720d110) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e5784cb084be76e157dc6eeb67c46b34') in 0.000660049 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 
 ========================================================================
 Received Prepare
-Refreshing native plugins compatible for Editor in 1.84 ms, found 3 plugins.
+Assembly reference Packages/com.unity.entities/Unity.Scenes.Editor/Internals/Properties/Unity.Properties.Internals.asmref has no target assembly definition
+Assembly reference Packages/com.unity.entities/Unity.Scenes.Editor/Internals/Properties/Unity.Properties.Internals.asmref has no target assembly definition
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory doesn't match image /Users/kingnan/Documents/github/unity-dots-rvo/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/kingnan/Documents/github/unity-dots-rvo/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  2.078 seconds
+Assembly reference Packages/com.unity.entities/Unity.Scenes.Editor/Internals/Properties/Unity.Properties.Internals.asmref has no target assembly definition
+Refreshing native plugins compatible for Editor in 0.81 ms, found 3 plugins.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Assembly reference Packages/com.unity.entities/Unity.Scenes.Editor/Internals/Properties/Unity.Properties.Internals.asmref has no target assembly definition
+TypeManager.Initialize took: 735ms
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.644 seconds
+Domain Reload Profiling: 4731ms
+	BeginReloadAssembly (729ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (31ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (1ms)
+		CreateAndSetChildDomain (306ms)
+	RebuildCommonClasses (65ms)
+	RebuildNativeTypeToScriptingClass (21ms)
+	initialDomainReloadingComplete (58ms)
+	LoadAllAssembliesAndSetupDomain (1213ms)
+		LoadAssemblies (885ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (520ms)
+			TypeCache.Refresh (38ms)
+				TypeCache.ScanAssembly (7ms)
+			BuildScriptInfoCaches (440ms)
+			ResolveRequiredComponents (27ms)
+	FinalizeReload (2645ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (2240ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (8ms)
+			BeforeProcessingInitializeOnLoad (129ms)
+			ProcessInitializeOnLoadAttributes (1797ms)
+			ProcessInitializeOnLoadMethodAttributes (298ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (27ms)
+Refreshing native plugins compatible for Editor in 0.77 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 26 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 26 unused Assets / (2.8 MB). Loaded Objects now: 8107.
-Memory consumption went from 147.5 MB to 144.7 MB.
-Total: 37.158032 ms (FindLiveObjects: 1.046537 ms CreateObjectMapping: 1.117169 ms MarkObjects: 33.453822 ms  DeleteObjects: 1.538765 ms)
+Unloading 27 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7447 unused Assets / (6.0 MB). Loaded Objects now: 8110.
+Memory consumption went from 168.8 MB to 162.8 MB.
+Total: 22.492163 ms (FindLiveObjects: 1.154097 ms CreateObjectMapping: 1.680266 ms MarkObjects: 15.351189 ms  DeleteObjects: 4.305275 ms)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 0 unused Assets / (3.6 MB). Loaded Objects now: 8110.
+Memory consumption went from 162.8 MB to 159.1 MB.
+Total: 13.271589 ms (FindLiveObjects: 0.565396 ms CreateObjectMapping: 0.413578 ms MarkObjects: 11.238897 ms  DeleteObjects: 1.052259 ms)
 
 Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Import Request.
-  Time since last request: 5785.658667 seconds.
-  path: Assets/SceneDependencyCache/e90b1d98f579e9d664cd5933a615aff9.sceneWithBuildSettings
-  artifactKey: Guid(e90b1d98f579e9d664cd5933a615aff9) Importer(2089858483,52bed625d08a7023a15481c3fbd73797)
-Start importing Assets/SceneDependencyCache/e90b1d98f579e9d664cd5933a615aff9.sceneWithBuildSettings using Guid(e90b1d98f579e9d664cd5933a615aff9) Importer(2089858483,52bed625d08a7023a15481c3fbd73797) (ScriptedImporter)Opening scene 'Assets/Scenes/SampleScene/New Sub Scene.unity additively'
-Loaded scene 'Assets/Scenes/SampleScene/New Sub Scene.unity'
-	Deserialize:            1.116 ms
-	Integration:            3.222 ms
-	Integration of assets:  0.009 ms
-	Thread Wait Time:       0.017 ms
-	Total Operation Time:   4.363 ms
-The referenced script is missing on Cube (index 4 in components list)
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
-UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object)
-UnityEngine.Debug:LogWarning (object,UnityEngine.Object)
-Unity.Debug:LogWarning (object,UnityEngine.Object) (at ./Library/PackageCache/com.unity.entities@1.2.4/Unity.Entities/Stubs/Unity/Debug.cs:22)
-Unity.Entities.Conversion.UnityEngineExtensions:GetComponentsBaking (UnityEngine.GameObject,System.Collections.Generic.List`1<UnityEngine.Component>) (at ./Library/PackageCache/com.unity.entities@1.2.4/Unity.Entities.Hybrid/GameObjectConversion/UnityEngineExtensions.cs:70)
-Unity.Entities.Baking.IncrementalBakingContext:BuildInitialInstructions (UnityEngine.SceneManagement.Scene,UnityEngine.GameObject[],Unity.Entities.TransformAuthoringBaking&) (at ./Library/PackageCache/com.unity.entities@1.2.4/Unity.Entities.Hybrid/Baking/IncrementalBakingContext.cs:272)
-Unity.Entities.BakingSystem:Bake (Unity.Entities.IncrementalBakingChangeTracker,UnityEngine.GameObject[]) (at ./Library/PackageCache/com.unity.entities@1.2.4/Unity.Entities.Hybrid/Baking/BakingSystem.cs:136)
-Unity.Entities.BakingUtility:BakeScene (Unity.Entities.World,UnityEngine.SceneManagement.Scene,Unity.Entities.BakingSettings,bool,Unity.Entities.IncrementalBakingChangeTracker) (at ./Library/PackageCache/com.unity.entities@1.2.4/Unity.Entities.Hybrid/Baking/BakingUtility.cs:84)
-Unity.Scenes.Editor.EditorEntityScenes:BakeAndWriteEntityScene (UnityEngine.SceneManagement.Scene,Unity.Entities.BakingSettings,System.Collections.Generic.List`1<Unity.Scenes.ReferencedUnityObjects>,Unity.Scenes.Editor.WriteEntitySceneSettings) (at ./Library/PackageCache/com.unity.entities@1.2.4/Unity.Scenes.Editor/EditorEntityScenes.cs:70)
-Unity.Scenes.Editor.SubSceneImporter:ImportBaking (UnityEditor.AssetImporters.AssetImportContext,UnityEngine.SceneManagement.Scene,Unity.Scenes.SceneWithBuildConfigurationGUIDs,Unity.Entities.Build.IEntitiesPlayerSettings,UnityEngine.GameObject) (at ./Library/PackageCache/com.unity.entities@1.2.4/Unity.Scenes.Editor/SubSceneImporter.cs:123)
-Unity.Scenes.Editor.SubSceneImporter:OnImportAsset (UnityEditor.AssetImporters.AssetImportContext) (at ./Library/PackageCache/com.unity.entities@1.2.4/Unity.Scenes.Editor/SubSceneImporter.cs:202)
-UnityEditor.AssetImporters.ScriptedImporter:GenerateAssetData (UnityEditor.AssetImporters.AssetImportContext) (at /Users/bokken/build/output/unity/unity/Modules/AssetPipelineEditor/Public/ScriptedImporter.cs:25)
-
-(Filename: ./Library/PackageCache/com.unity.entities@1.2.4/Unity.Entities/Stubs/Unity/Debug.cs Line: 22)
-
- -> (artifact id: '1aaa7073ed5c27dc429de1032a3e29b3') in 2.879413648 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 29.194052 seconds.
-  path: Assets/Scenes/Dots避障/DotsRVO2.unity
-  artifactKey: Guid(2d25da3abb993874ba6423954b4f537c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Dots避障/DotsRVO2.unity using Guid(2d25da3abb993874ba6423954b4f537c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '83dc8baf838825024ee9c3b16d368f0f') in 0.000870227 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.037571 seconds.
-  path: Assets/SceneDependencyCache/3ee54b5137049d1b5bcf4b07db7e9ded.sceneWithBuildSettings
-  artifactKey: Guid(3ee54b5137049d1b5bcf4b07db7e9ded) Importer(2089858483,52bed625d08a7023a15481c3fbd73797)
-Start importing Assets/SceneDependencyCache/3ee54b5137049d1b5bcf4b07db7e9ded.sceneWithBuildSettings using Guid(3ee54b5137049d1b5bcf4b07db7e9ded) Importer(2089858483,52bed625d08a7023a15481c3fbd73797) (ScriptedImporter)Opening scene 'Assets/Scenes/Dots避障/DotsRVO2/SubScene.unity additively'
-Loaded scene 'Assets/Scenes/Dots避障/DotsRVO2/SubScene.unity'
-	Deserialize:            1.598 ms
-	Integration:            0.532 ms
-	Integration of assets:  2.230 ms
-	Thread Wait Time:       0.024 ms
-	Total Operation Time:   4.384 ms
- -> (artifact id: '4722a0e76ac0f9aa863195933b7f8029') in 0.080558938 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
-
-========================================================================
-Received Import Request.
-  Time since last request: 27.899513 seconds.
-  path: Assets/Scenes/dotsScene/mainScene.unity
-  artifactKey: Guid(f96eeb52ea6ae9d449e247b1011f61c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/dotsScene/mainScene.unity using Guid(f96eeb52ea6ae9d449e247b1011f61c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '473538114031ce43c33b110236b3854c') in 0.000850879 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.922126 seconds.
-  path: Assets/SceneDependencyCache/cc53721a147f9fe1f9fa56d75d0a2ad3.sceneWithBuildSettings
-  artifactKey: Guid(cc53721a147f9fe1f9fa56d75d0a2ad3) Importer(2089858483,52bed625d08a7023a15481c3fbd73797)
-Start importing Assets/SceneDependencyCache/cc53721a147f9fe1f9fa56d75d0a2ad3.sceneWithBuildSettings using Guid(cc53721a147f9fe1f9fa56d75d0a2ad3) Importer(2089858483,52bed625d08a7023a15481c3fbd73797) (ScriptedImporter)Opening scene 'Assets/Scenes/dotsScene/mainScene/SubScene.unity additively'
-Loaded scene 'Assets/Scenes/dotsScene/mainScene/SubScene.unity'
-	Deserialize:            1.274 ms
-	Integration:            0.346 ms
-	Integration of assets:  0.027 ms
-	Thread Wait Time:       0.013 ms
-	Total Operation Time:   1.659 ms
- -> (artifact id: '7b8ad265e70ad1e7caa875ec8e4dc8b3') in 0.035622049 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
-
-========================================================================
-Received Import Request.
-  Time since last request: 19.687657 seconds.
-  path: Assets/Scenes/SampleScene.unity
-  artifactKey: Guid(99c9720ab356a0642a771bea13969a05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/SampleScene.unity using Guid(99c9720ab356a0642a771bea13969a05) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e3f75d8be4f51d806c0495030c0d5192') in 0.001537811 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
